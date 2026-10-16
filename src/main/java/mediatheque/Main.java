@@ -5,7 +5,7 @@ public class Main {
         Catalogue<Document> c = new Catalogue<>();
         c.ajouter(new Livre("Clean Code", 2008, "R. Martin", 464));
         c.ajouter(new Revue("Science", 2026, 412));
-        c.afficherTout();
+        //c.afficherTout();
 
         EmpruntManager m = new EmpruntManager(c);
         try {
